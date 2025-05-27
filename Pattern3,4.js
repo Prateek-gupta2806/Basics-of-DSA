@@ -9,12 +9,14 @@ console.log("Making new file");
 
 /*solution:- FIRST YOU WILL CONCATINATE SPACE AND THEN CONCATINATE STAR. USING DIFFRENT LOOPS.*/
 
-function pattern (n) {for (let row = 1; row<= n; row +=1) {
+function pattern3 (n) {for (let row = 1; row<= n; row +=1) {
    let str = "";
    let spaces = n-row;
+   /* we will concatinate the spaces*/
    for (let j=1; j<= spaces ; j+= 1){
        str += " ";
    }
+   /*after spaces concatination we will concatinate stars*/
    for ( let k=1; k<= row; k+= 1){
        str += "*";
    }
@@ -22,4 +24,12 @@ function pattern (n) {for (let row = 1; row<= n; row +=1) {
   };
 };
 
-pattern (6);
+
+
+/* output 
+     *
+    **
+   ***
+  ****
+ *****
+******      */
