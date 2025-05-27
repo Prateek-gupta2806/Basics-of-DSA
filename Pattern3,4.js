@@ -7,7 +7,7 @@ console.log("Making new file");
      **
     ***      */
 
-/*solution*/
+/*solution:- FIRST YOU WILL CONCATINATE SPACE AND THEN CONCATINATE STAR. USING DIFFRENT LOOPS.*/
 
 function pattern (n) {for (let row = 1; row<= n; row +=1) {
    let str = "";
