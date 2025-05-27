@@ -1,5 +1,4 @@
-/*pattern 1*/
-
+/*Q1. Make a grid of n*n..? */
 function pattern(n) {
    for (let row = 1; row <= n; row +=1) {
   let str = "";
@@ -17,6 +16,11 @@ pattern (3);
 
 pattern (4);
 
+let x = "abc"
+let y = "def"
+let z = "ghi"
 
 
+let m= z+=x
+console.log(m);
 
