@@ -1,0 +1,4 @@
+Note 
+
+1. String concatenation always create new strings and doesn't update.
+Reason being in JS strings are Immutable(cannot modify them)

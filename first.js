@@ -1,26 +1,20 @@
 /*Q1. Make a grid of n*n..? */
-function pattern(n) {
-   for (let row = 1; row <= n; row +=1) {
-  let str = "";
-  for (let col = 1; col <= n; col +=1) {
-     str += "*"
-  };
-  console.log(str);
-};
 
-}
-
-pattern(5);
-
-pattern (3);
-
-pattern (4);
-
-let x = "abc"
-let y = "def"
-let z = "ghi"
+// function pattern(n) {
+//    for (let row = 1; row <= n; row +=1) {
+//   let str = "";
+//   for (let col = 1; col <= n; col +=1) {
+//      str += "*"
+//   };
+//   console.log(str);
+// };
 
 
-let m= z+=x
-console.log(m);
+
+/*Q2 For given value of n. make upside down pyramid like structure 
+    for example :- for n = 3 
+    *
+    **
+    ***    */
+
 
