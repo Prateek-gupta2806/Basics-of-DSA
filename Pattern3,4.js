@@ -75,6 +75,24 @@ function pattern5 (n) {for (let row = 1; row<= n; row +=1) {
     **
     *           */  
 
+/* Q5 easy solution :- Just dont print spaces think of only stars 
+
+ans:- */ 
+
+function pattern51 (n) {for (let row = 1; row<= n; row +=1) {
+    let str = "";
+    
+   
+    /*after spaces concatination we will concatinate stars*/
+    for ( let k=1; k<= n-(row-1); k+= 1){
+        str += "*";
+    }
+   
+    
+    console.log(str);
+   };
+ };
+
 
 
 
