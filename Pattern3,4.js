@@ -94,6 +94,8 @@ function pattern51 (n) {for (let row = 1; row<= n; row +=1) {
  };
 
 
+ 
+
 
 
 
