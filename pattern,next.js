@@ -44,12 +44,62 @@ function pattern1 (n) {for (let row = 1; row<= n; row +=1) {
  };
  };
  
- 
- 
- 
  function patternMentos (n) {
      pattern1(n);
      pattern2(n);
  };
+
+/*Q8 new PATTERN */
+
+ function upper (n) {for (let row = 1; row<= n-(n-3); row +=1) {
+    let str = "";
+    for (let i =1; i<=row; i+=1) {
+        str+= "*";
+    }
+    let spaces = n-2*row;
+    for (let j=1; j<= spaces ; j+= 1){
+        str += " ";
+    }
+    for ( let k=1; k<= row; k+= 1){
+        str += "*";
+    }
+    console.log(str);
+   };
+ };
+ 
+ 
+ 
+ function mid (n) { 
+    for (let row = 1; row <=1; row +=1 ) {
+      let str = "";
+    for (let i =1; i<=n; i+=1) {
+        str+= "*";
+    }
+     console.log(str);
+ };
+};
+
+ 
+ function lower (n) {for (let row = 1; row<= n-(n-3); row +=1) {
+    let str = "";
+    for (let i =1; i<=row; i+=1) {
+        str+= "*";
+    }
+    let spaces = 2*row-1;
+    for (let j=1; j<= spaces ; j+= 1){
+        str += " ";
+    }
+    for ( let k=1; k<= row; k+= 1){
+        str += "*";
+    }
+    console.log(str);
+   };
+ };
+ 
+
+
+
+
+
  
  
