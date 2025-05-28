@@ -51,6 +51,33 @@ function pattern4 (n) {for (let row = 1; row<= n; row +=1) {
   };
 };
 
+/* Q4 inverted pyramid..?*/
+function pattern5 (n) {for (let row = 1; row<= n; row +=1) {
+    let str = "";
+    
+    /* we will concatinate the spaces*/
+   
+    /*after spaces concatination we will concatinate stars*/
+    for ( let k=1; k<= n-(row-1); k+= 1){
+        str += "*";
+    }
+    for (let j=1; j<= row-1 ; j+= 1){
+        str += " ";
+    }
+    console.log(str);
+   };
+ };
+
+ /* output 
+    *****
+    ****
+    ***
+    **
+    *           */  
+
+
+
+
 
 
 
