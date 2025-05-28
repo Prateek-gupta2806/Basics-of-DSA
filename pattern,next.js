@@ -1,4 +1,19 @@
 
+
+
+/*Q8 print the pattern  you can go to screen and print it to check the result
+
+for n = 3              *
+                      ***
+                     *****  
+                      ***
+                       * 
+
+*/
+
+
+
+
 function pattern1 (n) {for (let row = 1; row<= n; row +=1) {
     let str = "";
     let spaces = n-row;
@@ -37,4 +52,4 @@ function pattern1 (n) {for (let row = 1; row<= n; row +=1) {
      pattern2(n);
  };
  
- patternMentos (5);
+ 
