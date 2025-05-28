@@ -51,7 +51,7 @@ function pattern4 (n) {for (let row = 1; row<= n; row +=1) {
   };
 };
 
-/* Q4 inverted pyramid..?*/
+/* Q5 inverted pyramid..?*/
 function pattern5 (n) {for (let row = 1; row<= n; row +=1) {
     let str = "";
     
