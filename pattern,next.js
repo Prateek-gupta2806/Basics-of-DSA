@@ -82,20 +82,19 @@ spaces logic = N- 2*row.
  
  
  function mid (n) { 
-    for (let row = 1; row <=1; row +=1 ) {
-      let str = "";
+    let str = "";
     for (let i =1; i<=n; i+=1) {
         str+= "*";
     }
      console.log(str);
  };
-};
+
 
  
  function lower (n) {for (let row = 1; row<= (n-1)/2; row +=1) {
     let str = "";
     let spaces = 2*row-1;
-    let star = (n-spaces)/2;
+    let star = (n-1)/2- row + 1;
     for (let i =1; i<=star; i+=1) {
         str+= "*";
     }
