@@ -120,13 +120,27 @@ spaces logic = N- 2*row.
 
 
 /* Tasks  
-1. Patterns complete 
+
 2. Namaste JS next video..
 3. Madam video age.. 
 4. Notes dekhne hai ki ab kaise revise krne hai.....
 ***/
 
-
+/*Q Important pattern*/
 
  
- 
+function upperNew (n) {for (let row = 1; row <= n; row +=1) {
+    let str = "";
+    for (let i =1; i<=row; i+=1) {
+        str+= i;
+    }
+    let spaces = 2*(n-row);
+    for (let j=1; j<= spaces ; j+= 1){
+        str += " ";
+    }
+    for ( let k=row; k >=1 ; k= k-1){
+        str += k;
+    }
+    console.log(str);
+   };
+ };
