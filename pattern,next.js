@@ -132,7 +132,7 @@ spaces logic = N- 2*row.
 function upperNew (n) {for (let row = 1; row <= n; row +=1) {
     let str = "";
     for (let i =1; i<=row; i+=1) {
-        str+= i;
+        str += i;
     }
     let spaces = 2*(n-row);
     for (let j=1; j<= spaces ; j+= 1){
