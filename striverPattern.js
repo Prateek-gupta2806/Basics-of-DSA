@@ -17,5 +17,19 @@ let num = 0;
     
    };
  };
-
  
+
+ /*leran ABCD pattern*/
+ 
+ function pattern13 (n) {
+    for (let row = 1; row <= n; row +=1) {
+        let str = "";
+        
+        for (let i =1; i<=row; i=i+1) {
+            str += + ' ' ;
+            
+        }
+        console.log(str);
+        
+       };
+ }
